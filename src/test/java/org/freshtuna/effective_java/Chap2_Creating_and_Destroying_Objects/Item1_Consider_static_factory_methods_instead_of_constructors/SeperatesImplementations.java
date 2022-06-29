@@ -1,7 +1,4 @@
-package org.freshtuna.effective_java.Chap2_Creating_and_Destroying_Objects;
-
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+package org.freshtuna.effective_java.Chap2_Creating_and_Destroying_Objects.Item1_Consider_static_factory_methods_instead_of_constructors;
 
 import java.sql.Connection;
 import java.util.Map;
