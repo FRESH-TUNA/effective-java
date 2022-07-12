@@ -58,6 +58,6 @@ public class WithFactoryPattern {
     @DisplayName("어떤 팩토리를 넣는냐에 따라 나올수 있는 치킨이 달라진다.")
     public void test() {
         ChickenStore kyochonChickenStore = new ChickenStore(new KyochonChickenFactory());
-        ChickenStore pericanaChickenFactory = new PericanaChickenFactory(new KyochonChickenFactory());
+        ChickenStore pericanaChickenFactory = new ChickenStore(new PericanaChickenFactory());
     }
 }
